@@ -1,17 +1,19 @@
-# Nerfies
+# Reconstructing Graphic Design Posters via Visual Decomposition and Semantic Layer Translation
+### SIGGRAPH 2025
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
-
-If you find Nerfies useful for your work please cite:
-```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}
-```
-
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-# siggraph2025
+### Abstract
+This work presents a pipeline to convert rasterized graphic design
+posters into multi-layered, editable digital assets. It decomposes
+the input poster into core elements, categorizes them, and converts
+them into semantically meaningful formats. A novel strategy using
+Z-index addresses layer ordering and overlap. The pipeline’s
+accuracy was evaluated by comparing over 24,000 original and reconstructed
+posters of multiple widely used sizes and aspect ratios
+in print & digital media. Layer semantic accuracy was assessed
+using the LLaVA-7B model, which showed high confidence scores
+across image, text, and shape layers. A user-centered evaluation
+with 20 participants resulted in high satisfaction ratings, confirming
+the pipeline’s ability to accurately reproduce poster designs
+with excellent fidelity, layout, and overall quality. This pipeline
+contributes a refined approach to reconstructing rasterized graphic
+design posters, advancing beyond existing methods.
